@@ -11,4 +11,19 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j	
+
+/*Declaring variables*/
+int count = 0;
+
+if (arg > 0)
+{
+/*WHILE - print each arguments*/
+while (count < argc)
+{
+printf("%s\n", argv[count]);
+count++;
+}
+}
+return (0);
+}
+
